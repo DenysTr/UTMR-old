@@ -22,12 +22,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b develop -d build",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
+    "gh-pages": "^2.2.0",
     "prettier": "^1.19.1"
   },
   "repository": {

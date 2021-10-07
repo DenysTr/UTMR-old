@@ -40,6 +40,15 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
+              props.onOpenArticle('newone')
+            }}
+          >
+            Delete site button
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
               props.onOpenArticle('about')
             }}
           >
